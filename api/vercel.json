@@ -1,14 +1,14 @@
  {
      "builds": [
          {
-             "src": "api/hello.py",
+             "src": "api/hls_extractor.py",
              "use": "@vercel/python"
          }
      ],
      "routes": [
          {
              "src": "/(.*)",
-             "dest": "api/hello.py"
+             "dest": "api/hls_extractor.py"
          }
      ]
  }
